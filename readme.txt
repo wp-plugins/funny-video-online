@@ -4,7 +4,7 @@ Donate link: http://www.onlinerel.com/wordpress-plugins/
 Tags: widget, jokes, video, funny video,YouTube videos,YouTube, funny, funny foto, funny jokes, post, posts, link, links, promote, SEO, category, cloud, sidebar, feed, rss, popular
 Requires at least: 2.5
 Tested up to: 3.0.1
-Stable tag: 1.0
+Stable tag: 1.1
 
 Plugin "Funny video online" displays Funny video on your blog. There are over 10,000 video clips.
 Add Funny YouTube videos to your sidebar on your blog using  a widget.
@@ -33,6 +33,9 @@ If you're interested in seeing what a default installation of Funny video online
 Please see <a href="http://www.onlinerel.com/wordpress-plugins/">FAQ</a>.
 
 == Changelog ==
+
+ = 1.1 =
+Added more  functions.
 
  = 1.0 =
  First stable version.
