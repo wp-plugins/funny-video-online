@@ -4,12 +4,11 @@ Plugin Name: Funny video online
 Plugin URI: http://www.onlinerel.com/wordpress-plugins/
 Description: Plugin "Funny video online" displays Funny video on your blog. There are over 10,000 video clips.
 Add Funny YouTube videos to your sidebar on your blog using  a widget.
-Version: 1.0
+Version: 1.1
 Author: A.Kilius
 Author URI: http://www.onlinerel.com/wordpress-plugins/
 License: GPL2
 */
-
 define(funny_video_online_READER_URL_RSS_DEFAULT, 'http://fun.onlinerel.com/category/funny-video/feed/');
 define(funny_video_online_READER_TITLE, 'Funny video online');
 define(funny_video_online_MAX_SHOWN_ITEMS, 3);
@@ -129,10 +128,10 @@ Jobs search for U.S., Canada, UK, Australia</b> </p>
 <p><b>Plugin "Recipe of the Day" displays categorized recipes on your blog. There are over 20,000 recipes in 40 categories. Recipes are saved on our database, so you don't need to have space for all that information.</b> </p>
 <h3>Get plugin <a target="_blank" href="http://wordpress.org/extend/plugins/recipe-of-the-day/">Recipe of the Day</h3></a>
  <hr /> <hr />
- <h2>WP Social Bookmarking</h2>
+<h2>WP Social Bookmarking</h2>
 <p><b>WP-Social-Bookmarking plugin will add a image below your posts, allowing your visitors to share your posts with their friends, on FaceBook, Twitter, Myspace, Friendfeed, Technorati, del.icio.us, Digg, Google, Yahoo Buzz, StumbleUpon.</b></p>
-<p><b>Plugin suport sharing your posts feed on <a href="http://www.onlinerel.com/">OnlineRel</a>. This helps to promote your blog and get more traffic.</b></p>
-<p>Advertise your real estate, cars, items... Buy, Sell, Rent. Free promote your site:
+<p><b>Plugin suport sharing your posts feed on <a href="http://www.easyfreeads.com/">Easy Free Ads</a>. This helps to Promotion your blog and get more traffic.</b></p>
+<p>Advertise your real estate, cars, items... Buy, Sell, Rent. Promote your site:
 <ul>
 	<li><a target="_blank" href="http://www.onlinerel.com/">OnlineRel</a></li>
 	<li><a target="_blank" href="http://www.easyfreeads.com/">Easy Free Ads</a></li>
