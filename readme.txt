@@ -33,7 +33,7 @@ Please see <a href="http://www.onlinerel.com/wordpress-plugins/">FAQ</a>.
 
 == Changelog ==
 
- = 1.2 =
+ = 1.3 =
 Fix bugs.
 
  = 1.1 =
