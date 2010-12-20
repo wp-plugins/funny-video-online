@@ -33,7 +33,7 @@ Please see <a href="http://www.onlinerel.com/wordpress-plugins/">FAQ</a>.
 
 == Changelog ==
 
-= 1.4 =
+= 1.4.1 =
 Changed works upto 3.0.3 wp 
 
  = 1.3 =
