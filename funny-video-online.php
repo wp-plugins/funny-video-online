@@ -3,7 +3,7 @@
 Plugin Name: Funny video online
 Plugin URI: http://www.onlinerel.com/wordpress-plugins/
 Description: Plugin "Funny video online" displays Funny video on your blog. There are over 10,000 video clips. Add Funny YouTube videos to your sidebar on your blog using  a widget.
-Version: 1.7
+Version: 1.8
 Author: A.Kilius
 Author URI: http://www.onlinerel.com/wordpress-plugins/
 */
@@ -14,12 +14,6 @@ define(funny_video_online_MAX_SHOWN_ITEMS, 3);
 
 function funny_video_online_widget_ShowRss($args)
 {
-	if( file_exists( ABSPATH . WPINC . '/rss.php') ) {
-		require_once(ABSPATH . WPINC . '/rss.php');		
-	} else {
-		require_once(ABSPATH . WPINC . '/rss-functions.php');
-	}
-	
 	$options = get_option('funny_video_online_widget');
 
 	if( $options == false ) {
@@ -27,33 +21,36 @@ function funny_video_online_widget_ShowRss($args)
 		$options[ 'funny_video_online_widget_RSS_count_items' ] = funny_video_online_MAX_SHOWN_ITEMS;
 	}
 
- $RSSurl = funny_video_online_URL_RSS_DEFAULT;
-	$messages = fetch_rss($RSSurl);
+  $feed = funny_video_online_URL_RSS_DEFAULT;
 	$title = $options[ 'funny_video_online_widget_url_title' ];
-	
-	$messages_count = count($messages->items);
-	if($messages_count != 0){
-		$output = '<ul>';	
-	for($i=0; $i<$options['funny_video_online_widget_RSS_count_items'] && $i<$messages_count; $i++)
-		{		
-	 $fotocode = explode("http://www.youtube.com/v/", $messages->items[$i]['content']['encoded']);
-     $fotocode = explode("?fs=1", $fotocode[1]);
-		$foto = '<img src="http://i2.ytimg.com/vi/'.$fotocode[0].'/default.jpg" width="150" border="0"   title="'.$messages->items[$i]['description'].'"/>';
- $output .= '<li>';
- $output .= '<a target ="_blank" href="'.$messages->items[$i]['link'].'">'.$foto.'</a></span>';	
-	 $output .= '</li>';
+$rss = fetch_feed( $feed );
+		if ( !is_wp_error( $rss ) ) :
+			$maxitems = $rss->get_item_quantity($options['funny_video_online_widget_RSS_count_items'] );
+			$items = $rss->get_items( 0, $maxitems );
+				endif;
+	 $output .= '<ul>';	
+	if($items) { 
+ 			foreach ( $items as $item ) :
+				// Create post object
+  $titlee = trim($item->get_title()); 
+  if ($enclosure = $item->get_enclosure())
+	{ 
+ $output .= '<li> <a href="';
+ $output .=  $item->get_permalink();
+  $output .= '"  title="'.$titlee.'" target="_blank">';
+   $output .= '<img src="'.$enclosure->link.'"  alt="'.$titlee.'"  title="'.$titlee.'" /></a> ';
+	 $output .= '</li>'; 
 	}
-		$output .= '</ul> ';
+	  		endforeach;		
 	}
-	
+			$output .= '</ul> ';	 
+			
 	extract($args);	
-	?>
-	<?php echo $before_widget; ?>
-	<?php echo $before_title . $title . $after_title; ?>	
-	<?php echo $output; ?>
-	<?php echo $after_widget; ?>
-	<?php	
-}
+  echo $before_widget;  
+  echo $before_title . $title . $after_title;  
+ echo $output;  
+ echo $after_widget;  
+ }
 
 function funny_video_online_widget_Admin()
 {
