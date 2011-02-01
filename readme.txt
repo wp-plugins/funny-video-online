@@ -6,7 +6,7 @@ Requires at least: 2.5
 Tested up to: 3.1
 Stable tag: trunk
 
-Plugin "Funny video online" displays Funny video on your blog. There are over 10,000 video clips.
+Plugin "Funny video online" displays Funny video on your blog.     There are over 10,000 video clips.
  
 == Description ==
 
@@ -19,7 +19,7 @@ If you're interested in seeing what a default installation of Funny video online
 
 == Installation ==
 
-1. Upload the folder funny-video-online to the /wp-content/plugins/ directory
+1. Upload the folder funny-video-online to the /wp-content/plugins/ directory                                                                    
 2. Activate the plugin Funny video online through the 'Plugins' menu in WordPress
 3. Add the widget to your sidebar from Appearance->Widgets and configure the widget options.
 
@@ -33,7 +33,7 @@ Please see <a href="http://www.onlinerel.com/wordpress-plugins/">FAQ</a>.
 
 == Changelog ==
 
- = 1.8 =
+ = 1.9 =
 Updated feed system       
 
  = 1.7 =

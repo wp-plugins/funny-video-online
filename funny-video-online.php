@@ -3,11 +3,10 @@
 Plugin Name: Funny video online
 Plugin URI: http://www.onlinerel.com/wordpress-plugins/
 Description: Plugin "Funny video online" displays Funny video on your blog. There are over 10,000 video clips. Add Funny YouTube videos to your sidebar on your blog using  a widget.
-Version: 1.8
+Version: 1.9
 Author: A.Kilius
 Author URI: http://www.onlinerel.com/wordpress-plugins/
 */
-
 define(funny_video_online_URL_RSS_DEFAULT, 'http://fun.onlinerel.com/category/funny-video/feed/');
 define(funny_video_online_TITLE, 'Funny video online');
 define(funny_video_online_MAX_SHOWN_ITEMS, 3);
@@ -43,8 +42,7 @@ $rss = fetch_feed( $feed );
 	}
 	  		endforeach;		
 	}
-			$output .= '</ul> ';	 
-			
+			$output .= '</ul> ';	 			
 	extract($args);	
   echo $before_widget;  
   echo $before_title . $title . $after_title;  
@@ -103,14 +101,12 @@ function funny_video_online_ActionLink( $links, $file ) {
 function funny_video_online_options() {	
 	?>
 	<div class="wrap">
-
 		<h2>Funny video online</h2>
 <p><b>Plugin "Funny video online" displays Funny video on your blog. There are over 10,000 video clips.
 Add Funny YouTube videos to your sidebar on your blog using  a widget.</b> </p>
 <p> <h3>Add the widget "Funny video online"  to your sidebar from <a href="<? echo "./widgets.php";?>"> Appearance->Widgets</a> and configure the widget options.</h3></p>
  <hr /> <hr />
-  <h2>Blog Promotion</h2>                                                                      
-
+  <h2>Blog Promotion</h2>  
 <p>                                                    
 <b>If you produce original news or entertainment content, you can tap into one of the most technologically advanced traffic exchanges among blogs! Start using our Blog Promotion plugin on your site and receive 150%-300% extra traffic free! 
 Idea is simple - the more traffic you send to us, the more we can send you back.</b>
