@@ -15,7 +15,7 @@ Add Funny YouTube videos to your sidebar on your blog using  a widget. Video are
 
 <b>Try the Demo</b>
 
-If you're interested in seeing what a default installation of Funny video online has to offer, try out the <a target="_blank" href="http://fun.onlinerel.com/">Funny video online</a>
+If you're interested in seeing what a default installation of Funny video online has to offer, try out the <a target="_blank" href="http://www.springfail.com/">Funny video online</a>
 
 == Installation ==
 
@@ -32,6 +32,9 @@ If you're interested in seeing what a default installation of Funny video online
 Please see <a href="http://www.onlinerel.com/wordpress-plugins/">FAQ</a>.
 
 == Changelog ==
+
+ = 2.0 =
+Tested up to 3.1 version WP     
 
  = 1.9 =
 Updated feed system       

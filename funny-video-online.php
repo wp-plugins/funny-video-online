@@ -3,7 +3,7 @@
 Plugin Name: Funny video online
 Plugin URI: http://www.onlinerel.com/wordpress-plugins/
 Description: Plugin "Funny video online" displays Funny video on your blog. There are over 10,000 video clips. Add Funny YouTube videos to your sidebar on your blog using  a widget.
-Version: 1.9
+Version: 2.0
 Author: A.Kilius
 Author URI: http://www.onlinerel.com/wordpress-plugins/
 */
@@ -14,12 +14,10 @@ define(funny_video_online_MAX_SHOWN_ITEMS, 3);
 function funny_video_online_widget_ShowRss($args)
 {
 	$options = get_option('funny_video_online_widget');
-
 	if( $options == false ) {
 		$options[ 'funny_video_online_widget_url_title' ] = funny_video_online_TITLE;
 		$options[ 'funny_video_online_widget_RSS_count_items' ] = funny_video_online_MAX_SHOWN_ITEMS;
 	}
-
   $feed = funny_video_online_URL_RSS_DEFAULT;
 	$title = $options[ 'funny_video_online_widget_url_title' ];
 $rss = fetch_feed( $feed );
@@ -42,12 +40,12 @@ $rss = fetch_feed( $feed );
 	}
 	  		endforeach;		
 	}
-			$output .= '</ul> ';	 			
-	extract($args);	
-  echo $before_widget;  
-  echo $before_title . $title . $after_title;  
- echo $output;  
- echo $after_widget;  
+$output .= '</ul> ';	 			
+extract($args);	
+ echo $before_widget;  
+ echo $before_title . $title . $after_title;  
+echo $output;  
+echo $after_widget;  
  }
 
 function funny_video_online_widget_Admin()
@@ -102,9 +100,11 @@ function funny_video_online_options() {
 	?>
 	<div class="wrap">
 		<h2>Funny video online</h2>
-<p><b>Plugin "Funny video online" displays Funny video on your blog. There are over 10,000 video clips.
+<p>                                
+<b>Plugin "Funny video online" displays Funny video on your blog. There are over 10,000 video clips.
 Add Funny YouTube videos to your sidebar on your blog using  a widget.</b> </p>
-<p> <h3>Add the widget "Funny video online"  to your sidebar from <a href="<? echo "./widgets.php";?>"> Appearance->Widgets</a> and configure the widget options.</h3></p>
+<p> <h3>Add the widget "Funny video online"  to your sidebar from <a href="<? echo "./widgets.php";?>"> Appearance->Widgets</a> and configure the widget options.</h3>                                  
+</p>
  <hr /> <hr />
   <h2>Blog Promotion</h2>  
 <p>                                                    
@@ -140,11 +140,11 @@ Jobs search for U.S., Canada, UK, Australia</b> </p>
  <hr />
 <h2>WP Social Bookmarking</h2>
 <p><b>WP-Social-Bookmarking plugin will add a image below your posts, allowing your visitors to share your posts with their friends, on FaceBook, Twitter, Myspace, Friendfeed, Technorati, del.icio.us, Digg, Google, Yahoo Buzz, StumbleUpon.</b></p>
-<p><b>Plugin suport sharing your posts feed on <a href="http://www.easyfreeads.com/">Easy Free Ads</a>. This helps to Promotion your blog and get more traffic.</b></p>
+<p><b>Plugin suport sharing your posts feed on <a target="_blank" href="http://www.homeshopworld.com/">Home Shop World</a>. This helps to Promotion your blog and get more traffic.</b></p>
 <p>Advertise your real estate, cars, items... Buy, Sell, Rent. Promote your site:
 <ul>
 	<li><a target="_blank" href="http://www.onlinerel.com/">OnlineRel</a></li>
-	<li><a target="_blank" href="http://www.easyfreeads.com/">Easy Free Ads</a></li>
+	<li><a target="_blank" href="http://www.homeshopworld.com/">Home Shop World</a></li>
 	<li><a target="_blank" href="http://www.worldestatesite.com/">World Estate Site</a></li>
 </ul>
 <h3>Get plugin <a target="_blank" href="http://wordpress.org/extend/plugins/wp-social-bookmarking/">WP Social Bookmarking</h3></a>
