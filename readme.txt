@@ -68,6 +68,7 @@ Added more  functions.
 == Upgrade Notice ==
   
   = 2.1 =
+
 Automatically upgrade the plugin and all previous settings should remain intact.
 Tested up to 3.1 version WP
 Updated feed system 
