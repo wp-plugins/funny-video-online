@@ -33,6 +33,10 @@ Please see <a href="http://www.onlinerel.com/wordpress-plugins/">FAQ</a>.
 
 == Changelog ==
 
+ = 2.1 =
+Tested up to 3.1 version WP
+Updated feed system     
+
  = 2.0 =
 Tested up to 3.1 version WP     
 
@@ -59,3 +63,12 @@ Added more  functions.
 
  = 1.0 =
  First stable version.
+
+
+== Upgrade Notice ==
+  
+  = 2.1 =
+Automatically upgrade the plugin and all previous settings should remain intact.
+Tested up to 3.1 version WP
+Updated feed system 
+

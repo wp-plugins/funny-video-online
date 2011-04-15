@@ -3,7 +3,7 @@
 Plugin Name: Funny video online
 Plugin URI: http://www.onlinerel.com/wordpress-plugins/
 Description: Plugin "Funny video online" displays Funny video on your blog. There are over 10,000 video clips. Add Funny YouTube videos to your sidebar on your blog using  a widget.
-Version: 2.0
+Version: 2.1
 Author: A.Kilius
 Author URI: http://www.onlinerel.com/wordpress-plugins/
 */
@@ -145,7 +145,8 @@ Jobs search for U.S., Canada, UK, Australia</b> </p>
 <ul>
 	<li><a target="_blank" href="http://www.onlinerel.com/">OnlineRel</a></li>
 	<li><a target="_blank" href="http://www.homeshopworld.com/">Home Shop World</a></li>
-	<li><a target="_blank" href="http://www.worldestatesite.com/">World Estate Site</a></li>
+	<li><a target="_blank" href="http://www.ecobun.com/">Ecology and Health</a></li>
+	 <li><a target="_blank" href="http://www.activehotelguide.com/">Travel</a></li>
 </ul>
 <h3>Get plugin <a target="_blank" href="http://wordpress.org/extend/plugins/wp-social-bookmarking/">WP Social Bookmarking</h3></a>
 </p>
