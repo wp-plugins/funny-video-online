@@ -85,7 +85,7 @@ Added more  functions.
 
 == Upgrade Notice ==
   
-  = 2.2 =
+= 2.2 =
 
 Automatically upgrade the plugin and all previous settings should remain intact.
 Updated feed system 
