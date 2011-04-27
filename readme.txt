@@ -6,16 +6,20 @@ Requires at least: 2.5
 Tested up to: 3.1
 Stable tag: trunk
 
-Plugin "Funny video online" displays Funny video on your blog. Add Funny YouTube videos to your sidebar on your blog using  a widget There are over 10,000 video clips.
+Plugin "Funny video online" displays Funny video on your blog.
+Add Funny YouTube videos to your sidebar on your blog using  a widget.
+There are over 10,000 video clips.
  
 == Description ==
 
 Plugin "Funny video online" displays Funny video on your blog. There are over 10,000 video clips.
-Add Funny YouTube videos to your sidebar on your blog using  a widget. Video are saved on our database, so you don't need to have space for all that information. 
+Add Funny YouTube videos to your sidebar on your blog using  a widget.
+Video are saved on our database, so you don't need to have space for all that information. 
 
 <b>Try the Demo</b>
 
-If you're interested in seeing what a default installation of Funny video online has to offer, try out the <a target="_blank" href="http://www.springfail.com/">Funny video online</a>
+If you're interested in seeing what a default installation of Funny video online has to offer,
+try out the <a target="_blank" href="http://www.springfail.com/">Funny video online</a>
 
 == Installation ==
 
@@ -71,7 +75,6 @@ Added more  functions.
 == Upgrade Notice ==
   
   = 2.2 =
-
 Automatically upgrade the plugin and all previous settings should remain intact.
 Updated feed system 
 
