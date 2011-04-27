@@ -6,7 +6,7 @@ Requires at least: 2.5
 Tested up to: 3.1
 Stable tag: trunk
 
-Plugin "Funny video online" displays Funny video on your blog.     There are over 10,000 video clips.
+Plugin "Funny video online" displays Funny video on your blog. Add Funny YouTube videos to your sidebar on your blog using  a widget There are over 10,000 video clips.
  
 == Description ==
 
@@ -32,6 +32,9 @@ If you're interested in seeing what a default installation of Funny video online
 Please see <a href="http://www.onlinerel.com/wordpress-plugins/">FAQ</a>.
 
 == Changelog ==
+
+ = 2.2 =
+Updated feed system     
 
  = 2.1 =
 Tested up to 3.1 version WP
@@ -67,9 +70,8 @@ Added more  functions.
 
 == Upgrade Notice ==
   
-  = 2.1 =
+  = 2.2 =
 
 Automatically upgrade the plugin and all previous settings should remain intact.
-Tested up to 3.1 version WP
 Updated feed system 
 
