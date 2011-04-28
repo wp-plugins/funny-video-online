@@ -11,7 +11,8 @@ There are over 10,000 video clips.
  
 == Description ==
 
-Plugin "Funny video online" displays Funny video on your blog. There are over 10,000 video clips.
+Plugin "Funny video online" displays Funny video on your blog. 
+There are over 10,000 video clips.
 Add Funny YouTube videos to your sidebar on your blog using  a widget.
 Video are saved on our database, so you don't need to have space for all that information. 
 
@@ -36,11 +37,15 @@ Please see <a href="http://www.onlinerel.com/wordpress-plugins/">FAQ</a>.
 
 == Changelog ==
 
- = 2.2 =
+ = 2.3 =
                                                                                                                                                                 
 Updated feed system 
 Tested up to 3.1.1 version WP
 
+ = 2.2 =
+                                                                                                                                                                
+Updated feed system 
+ 
  = 2.1 =
 
 Tested up to 3.1 version WP
@@ -85,7 +90,7 @@ Added more  functions.
 
 == Upgrade Notice ==
   
-= 2.2 =
+= 2.3 =
 
 Automatically upgrade the plugin and all previous settings should remain intact.
 Updated feed system 
