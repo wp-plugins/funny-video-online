@@ -1,13 +1,13 @@
 <?php
 /*
 Plugin Name: Funny video online
+Version: 2.4
 Plugin URI: http://www.onlinerel.com/wordpress-plugins/
 Description: Plugin "Funny video online" displays Funny video on your blog. There are over 10,000 video clips. Add Funny YouTube videos to your sidebar on your blog using  a widget.
-Version: 2.3
 Author: A.Kilius
 Author URI: http://www.onlinerel.com/wordpress-plugins/
 */
-define(funny_video_online_URL_RSS_DEFAULT, 'http://fun.onlinerel.com/category/funny-video/feed/');
+define(funny_video_online_URL_RSS_DEFAULT, 'http://www.weekendjoy.com/weekend/funny-video/feed/');
 define(funny_video_online_TITLE, 'Funny video online');
 define(funny_video_online_MAX_SHOWN_ITEMS, 3);
 
@@ -56,9 +56,9 @@ function funny_video_online_widget_Admin()
 		$newoptions[ 'funny_video_online_widget_url_title' ] = funny_video_online_TITLE;
 		$newoptions['funny_video_online_widget_RSS_count_items'] = funny_video_online_MAX_SHOWN_ITEMS;		
 	}
-	if ( $_POST["funny_video_online_widget-submit"] ) {
+	if ( $_POST["funny_video_online_widget_RSS_count_items"] ) {
 		$newoptions['funny_video_online_widget_url_title'] = strip_tags(stripslashes($_POST["funny_video_online_widget_url_title"]));
-				$newoptions['funny_video_online_widget_RSS_count_items'] = strip_tags(stripslashes($_POST["funny_video_online_widget_RSS_count_items"]));
+$newoptions['funny_video_online_widget_RSS_count_items'] = strip_tags(stripslashes($_POST["funny_video_online_widget_RSS_count_items"]));
 	}	
 		
 	if ( $options != $newoptions ) {
@@ -66,17 +66,10 @@ function funny_video_online_widget_Admin()
 		update_option('funny_video_online_widget', $options);		
 	}
 	$funny_video_online_widget_url_title = wp_specialchars($options['funny_video_online_widget_url_title']);
-	$funny_video_online_widget_RSS_count_items = $options['funny_video_online_widget_RSS_count_items'];
-	
-	?><form method="post" action="">	
-
-	<p><label for="funny_video_online_widget_url_title"><?php _e('Title:'); ?> <input style="width: 350px;" id="funny_video_online_widget_url_title" name="funny_video_online_widget_url_title" type="text" value="<?php echo $funny_video_online_widget_url_title; ?>" /></label></p>
- 
+	$funny_video_online_widget_RSS_count_items = $options['funny_video_online_widget_RSS_count_items'];	
+	?>
+	<p><label for="funny_video_online_widget_url_title"><?php _e('Title:'); ?> <input style="width: 350px;" id="funny_video_online_widget_url_title" name="funny_video_online_widget_url_title" type="text" value="<?php echo $funny_video_online_widget_url_title; ?>" /></label></p> 
 	<p><label for="funny_video_online_widget_RSS_count_items"><?php _e('Count Items To Show:'); ?> <input  id="funny_video_online_widget_RSS_count_items" name="funny_video_online_widget_RSS_count_items" size="2" maxlength="2" type="text" value="<?php echo $funny_video_online_widget_RSS_count_items?>" /></label></p>
-	
-	<br clear='all'></p>
-	<input type="hidden" id="funny_video_online_widget-submit" name="funny_video_online_widget-submit" value="1" />	
-	</form>
 	<?php
 }
 
@@ -148,6 +141,7 @@ Jobs search for U.S., Canada, UK, Australia</b> </p>
 <p><b>Plugin suport sharing your posts feed on <a target="_blank" href="http://www.homeshopworld.com/">Home Shop World</a>. This helps to Promotion your blog and get more traffic.</b></p>
 <p>Advertise your real estate, cars, items... Buy, Sell, Rent. Promote your site:
 <ul>
+<li><a target="_blank" href="http://www.worldestatesite.com/">World Estate Site</a></li>
 	<li><a target="_blank" href="http://www.onlinerel.com/">OnlineRel</a></li>
 	<li><a target="_blank" href="http://www.homeshopworld.com/">Home Shop World</a></li>
 	<li><a target="_blank" href="http://www.ecobun.com/">Ecology and Health</a></li>
