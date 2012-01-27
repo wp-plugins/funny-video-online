@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Funny video online
-Version: 2.4
+Version: 2.5
 Plugin URI: http://www.onlinerel.com/wordpress-plugins/
 Description: Plugin "Funny video online" displays Funny video on your blog. There are over 10,000 video clips. Add Funny YouTube videos to your sidebar on your blog using  a widget.
 Author: A.Kilius
@@ -98,58 +98,7 @@ function funny_video_online_options() {
 Add Funny YouTube videos to your sidebar on your blog using  a widget.</b> </p>
 <p> <h3>Add the widget "Funny video online"  to your sidebar from <a href="<? echo "./widgets.php";?>"> Appearance->Widgets</a> and configure the widget options.</h3>                                  
 </p>
- <hr /> 
- <hr />
-
-  <h2>Funny photos</h2>
-<p><b>Plugin "Funny Photos" displays Best photos of the day and Funny photos on your blog. There are over 5,000 photos.
-Add Funny Photos to your sidebar on your blog using  a widget.</b> </p>
- <h3>Get plugin <a target="_blank" href="http://wordpress.org/extend/plugins/funny-photos/">Funny photos</h3></a> 
- <hr />
- <h2>Joke of the Day</h2>
-<p><b>Plugin "Joke of the Day" displays categorized jokes on your blog. There are over 40,000 jokes in 40 categories. Jokes are saved on our database, so you don't need to have space for all that information. </b> </p>
- <h3>Get plugin <a target="_blank" href="http://wordpress.org/extend/plugins/joke-of-the-day/">Joke of the Day</h3></a>
-   <hr />
-
-  <h2>Blog Promotion</h2>  
-<p>                                                    
-<b>If you produce original news or entertainment content, you can tap into one of the most technologically advanced traffic exchanges among blogs! Start using our Blog Promotion plugin on your site and receive 150%-300% extra traffic free! 
-Idea is simple - the more traffic you send to us, the more we can send you back.</b>
-</p>                       
-
- <h3>Get plugin <a target="_blank" href="http://wordpress.org/extend/plugins/blog-promotion/">Blog Promotion</h3></a> 
- 
- <hr />
-   		
- <h2>Real Estate Finder</h2>
-<p><b>Plugin "Real Estate Finder" gives visitors the opportunity to use a large database of real estate.
-Real estate search for U.S., Canada, UK, Australia</b> </p>
-<h3>Get plugin <a target="_blank" href="http://wordpress.org/extend/plugins/real-estate-finder/">Real Estate Finder</h3></a>
- <hr />
-
- <h2>Jobs Finder</h2>
-<p><b>Plugin "Jobs Finder" gives visitors the opportunity to more than 1 million offer of employment.
-Jobs search for U.S., Canada, UK, Australia</b> </p>
-<h3>Get plugin <a target="_blank" href="http://wordpress.org/extend/plugins/jobs-finder/">Jobs Finder</h3></a>
- <hr />
-		<h2>Recipe of the Day</h2>
-<p><b>Plugin "Recipe of the Day" displays categorized recipes on your blog. There are over 20,000 recipes in 40 categories. Recipes are saved on our database, so you don't need to have space for all that information.</b> </p>
-<h3>Get plugin <a target="_blank" href="http://wordpress.org/extend/plugins/recipe-of-the-day/">Recipe of the Day</h3></a>
- <hr />
-<h2>WP Social Bookmarking</h2>
-<p><b>WP-Social-Bookmarking plugin will add a image below your posts, allowing your visitors to share your posts with their friends, on FaceBook, Twitter, Myspace, Friendfeed, Technorati, del.icio.us, Digg, Google, Yahoo Buzz, StumbleUpon.</b></p>
-<p><b>Plugin suport sharing your posts feed on <a target="_blank" href="http://www.homeshopworld.com/">Home Shop World</a>. This helps to Promotion your blog and get more traffic.</b></p>
-<p>Advertise your real estate, cars, items... Buy, Sell, Rent. Promote your site:
-<ul>
-<li><a target="_blank" href="http://www.worldestatesite.com/">World Estate Site</a></li>
-	<li><a target="_blank" href="http://www.onlinerel.com/">OnlineRel</a></li>
-	<li><a target="_blank" href="http://www.homeshopworld.com/">Home Shop World</a></li>
-	<li><a target="_blank" href="http://www.ecobun.com/">Ecology and Health</a></li>
-	 <li><a target="_blank" href="http://www.activehotelguide.com/">Travel</a></li>
-</ul>
-<h3>Get plugin <a target="_blank" href="http://wordpress.org/extend/plugins/wp-social-bookmarking/">WP Social Bookmarking</h3></a>
-</p>
-	</div>                                                
+ 	</div>                                                
 	<?php
 }
 
