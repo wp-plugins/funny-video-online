@@ -16,11 +16,6 @@ There are over 10,000 video clips.
 Add Funny YouTube videos to your sidebar on your blog using  a widget.
 Video are saved on our database, so you don't need to have space for all that information. 
 
-<b>Try the Demo</b>
-
-If you're interested in seeing what a default installation of Funny video online has to offer,
-try out the <a target="_blank" href="http://www.weekendjoy.com/">Funny video online</a>
-
 == Installation ==
 
 1. Upload the folder funny-video-online to the /wp-content/plugins/ directory                                                                    
@@ -30,11 +25,7 @@ try out the <a target="_blank" href="http://www.weekendjoy.com/">Funny video onl
 == Screenshots ==
 
 1. Funny video online Widget
-
-== Frequently Asked Questions ==
-
-Please see <a href="http://www.onlinerel.com/wordpress-plugins/">FAQ</a>.
-
+ 
 == Changelog ==
 
 = 2.5 =
