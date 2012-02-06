@@ -1,7 +1,7 @@
 === Funny video online ===
 Contributors: allis741 
 Donate link: http://www.onlinerel.com/wordpress-plugins/
-Tags: widget, jokes, video, funny video,YouTube videos,YouTube, funny, funny foto, funny jokes, post, posts, link, links, promote, SEO, category, cloud, sidebar, feed, rss, popular
+Tags: widget, jokes, video, funny video,YouTube videos,YouTube, funny, funny foto, funny, category, cloud, sidebar, feed, rss, popular
 Requires at least: 2.5
 Tested up to: 3.3.1
 Stable tag: trunk
