@@ -7,6 +7,7 @@ Description: Plugin "Funny video online" displays Funny video on your blog. Ther
 Author: A.Kilius
 Author URI: http://www.onlinerel.com/wordpress-plugins/
 */
+
 define(funny_video_online_URL_RSS_DEFAULT, 'http://www.weekendjoy.com/weekend/funny-video/feed/');
 define(funny_video_online_TITLE, 'Funny video online');
 define(funny_video_online_MAX_SHOWN_ITEMS, 3);
@@ -20,11 +21,12 @@ function funny_video_online_widget_ShowRss($args)
 	}
   $feed = funny_video_online_URL_RSS_DEFAULT;
 	$title = $options[ 'funny_video_online_widget_url_title' ];
+
 $rss = fetch_feed( $feed );
 		if ( !is_wp_error( $rss ) ) :
 			$maxitems = $rss->get_item_quantity($options['funny_video_online_widget_RSS_count_items'] );
 			$items = $rss->get_items( 0, $maxitems );
-				endif;
+		endif;
 	 $output .= '<ul>';	
 	if($items) { 
  			foreach ( $items as $item ) :
@@ -67,8 +69,7 @@ $newoptions['funny_video_online_widget_RSS_count_items'] = strip_tags(stripslash
 	}
 	$funny_video_online_widget_url_title = wp_specialchars($options['funny_video_online_widget_url_title']);
 	$funny_video_online_widget_RSS_count_items = $options['funny_video_online_widget_RSS_count_items'];	
-	?>
-	<p><label for="funny_video_online_widget_url_title"><?php _e('Title:'); ?> <input style="width: 350px;" id="funny_video_online_widget_url_title" name="funny_video_online_widget_url_title" type="text" value="<?php echo $funny_video_online_widget_url_title; ?>" /></label></p> 
+	?> 	<p><label for="funny_video_online_widget_url_title"><?php _e('Title:'); ?> <input style="width: 350px;" id="funny_video_online_widget_url_title" name="funny_video_online_widget_url_title" type="text" value="<?php echo $funny_video_online_widget_url_title; ?>" /></label></p> 
 	<p><label for="funny_video_online_widget_RSS_count_items"><?php _e('Count Items To Show:'); ?> <input  id="funny_video_online_widget_RSS_count_items" name="funny_video_online_widget_RSS_count_items" size="2" maxlength="2" type="text" value="<?php echo $funny_video_online_widget_RSS_count_items?>" /></label></p>
 	<?php
 }
@@ -92,15 +93,17 @@ function funny_video_online_ActionLink( $links, $file ) {
 function funny_video_online_options() {	
 	?>
 	<div class="wrap">
-		<h2>Funny video online</h2>
+<h2>Funny video online</h2>
 <p>                                
 <b>Plugin "Funny video online" displays Funny video on your blog. There are over 10,000 video clips.
 Add Funny YouTube videos to your sidebar on your blog using  a widget.</b> </p>
 <p> <h3>Add the widget "Funny video online"  to your sidebar from <a href="<? echo "./widgets.php";?>"> Appearance->Widgets</a> and configure the widget options.</h3>                                  
 </p>
- 	</div>                                                
+ 	</div>     
+	
 	<?php
 }
+
 
 function funny_video_online_widget_Init()
 {
