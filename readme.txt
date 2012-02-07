@@ -88,22 +88,3 @@ Added more  functions.
 = 1.0 =
 
  First stable version.
-
-
-== Upgrade Notice ==
-
-= 2.4 =
-
-Automatically upgrade the plugin and all previous settings should remain intact.
-Changed http://www.weekendjoy.com  feed.
-Tested up to 3.1.3 version WP
-  
-= 2.3 =
-
-Automatically upgrade the plugin and all previous settings should remain intact.
-Updated feed system 
-Tested up to 3.1.1 version WP
-
-
-
-
