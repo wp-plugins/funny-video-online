@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Funny video online
-Version: 2.5
 Plugin URI: http://www.onlinerel.com/wordpress-plugins/
 Description: Plugin "Funny video online" displays Funny video on your blog. There are over 10,000 video clips.
+Version: 2.6
 Author: A.Kilius
 Author URI: http://www.onlinerel.com/wordpress-plugins/
 */
@@ -74,10 +74,6 @@ $newoptions['funny_video_online_widget_RSS_count_items'] = strip_tags(stripslash
 	<?php
 }
 
-add_action('admin_menu', 'funny_video_online_menu');
-function funny_video_online_menu() {
-	add_options_page('Funny video online', 'Funny video online', 8, __FILE__, 'funny_video_online_options');
-}
 
 add_filter("plugin_action_links", 'funny_video_online_ActionLink', 10, 2);
 function funny_video_online_ActionLink( $links, $file ) {
@@ -97,7 +93,8 @@ function funny_video_online_options() {
 <p>                                
 <b>Plugin "Funny video online" displays Funny video on your blog. There are over 10,000 video clips.
 Add Funny YouTube videos to your sidebar on your blog using  a widget.</b> </p>
-<p> <h3>Add the widget "Funny video online"  to your sidebar from <a href="<? echo "./widgets.php";?>"> Appearance->Widgets</a> and configure the widget options.</h3>                                  
+<p> <h3>Add the widget "Funny video online"  to your sidebar from <a href="<? echo "./widgets.php";?>"> Appearance->Widgets</a> and configure the widget options.</h3>  
+<h3>More <a href="http://www.onlinerel.com/wordpress-plugins/" target="_blank"> WordPress Plugins</a></h3>
 </p>
  	</div>     
 	
@@ -110,4 +107,10 @@ function funny_video_online_widget_Init()
   register_widget_control(__('Funny video online'), 'funny_video_online_widget_Admin', 500, 250);
 }
 add_action("plugins_loaded", "funny_video_online_widget_Init");
+
+add_action('admin_menu', 'funny_video_online_menu');
+function funny_video_online_menu() {
+	 add_menu_page('Funny video online', 'Funny video online', 8, __FILE__, 'funny_video_online_options');
+}
+
 ?>

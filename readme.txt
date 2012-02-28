@@ -1,7 +1,7 @@
 === Funny video online ===
 Contributors: allis741 
 Donate link: http://www.onlinerel.com/wordpress-plugins/
-Tags: widget, jokes, video, funny video,YouTube videos,YouTube, funny, funny foto, funny jokes, category, cloud, sidebar, feed, rss, popular
+Tags:  jokes, video, funny video,YouTube videos,YouTube, funny, funny foto, funny jokes, sidebar, feed, widget
 Requires at least: 2.5
 Tested up to: 3.3.1
 Stable tag: trunk
@@ -15,12 +15,14 @@ Plugin "Funny video online" displays Funny video on your blog.
 There are over 10,000 video clips.
 Add Funny YouTube videos to your sidebar on your blog using  a widget.
 Video are saved on our database, so you don't need to have space for all that information. 
+More [WordPress Plugins](http://www.onlinerel.com/wordpress-plugins/).
 
 == Installation ==
 
 1. Upload the folder funny-video-online to the /wp-content/plugins/ directory                                                                    
 2. Activate the plugin Funny video online through the 'Plugins' menu in WordPress
 3. Add the widget to your sidebar from Appearance->Widgets and configure the widget options.
+4. Go to Settings > Funny video online.
 
 == Screenshots ==
 
@@ -29,8 +31,9 @@ Video are saved on our database, so you don't need to have space for all that in
 
 == Changelog ==
 
-= 2.5 =
+= 2.6 =
 
+Updated feed system 
 Tested up to 3.3.1 WP     
 Updated script
 
