@@ -33,61 +33,41 @@ More [WordPress Plugins](http://www.onlinerel.com/wordpress-plugins/).
 
 = 2.6 =
 
-Updated feed system 
-Tested up to 3.3.1 WP     
-Updated script
+* Updated feed system 
+* Tested up to 3.3.1 WP     
+* Updated script
 
 = 2.4 =
                                                                                                                                                                 
-Changed http://www.weekendjoy.com  feed.
-Tested up to 3.1.3 version WP
+* Changed http://www.weekendjoy.com  feed.
+* Tested up to 3.1.3 version WP
 
 = 2.3 =
                                                                                                                                                                 
-Updated feed system 
-Tested up to 3.1.1 version WP
-
-= 2.2 =
-                                                                                                                                                                
-Updated feed system 
+* Updated feed system 
+* Tested up to 3.1.1 version WP
  
 = 2.1 =
 
-Tested up to 3.1 version WP
-Updated feed system     
+* Tested up to 3.1 version WP
+* Updated feed system     
 
 = 2.0 =
 
-Tested up to 3.1 version WP     
-
-= 1.9 =
-
-Updated feed system       
-
-= 1.7 =
-
-Updated tags                                                         
-
-= 1.6 =
-
-Updated tags                                                                                    
-
-= 1.5 =
-
-Tested upto 3.1 WP 
-
+* Tested up to 3.1 version WP     
+ 
 = 1.4.1 =
 
-Changed works upto 3.0.3 wp 
+* Changed works upto 3.0.3 wp 
 
 = 1.3 =
 
-Fix bugs.
+* Fix bugs.
 
 = 1.1 =
 
-Added more  functions.
+* Added more  functions.
 
 = 1.0 =
 
- First stable version.
+ * First stable version.
