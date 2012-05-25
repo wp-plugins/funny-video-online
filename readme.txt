@@ -3,7 +3,7 @@ Contributors: allis741
 Donate link: http://www.onlinerel.com/wordpress-plugins/
 Tags:  jokes, video, funny video,YouTube videos,YouTube, funny, funny foto, funny jokes, sidebar, feed, widget
 Requires at least: 2.5
-Tested up to: 3.3.1
+Tested up to: 3.3.2
 Stable tag: trunk
 
 Plugin "Funny video online" displays Funny video on your blog.
@@ -30,6 +30,10 @@ More [WordPress Plugins](http://www.onlinerel.com/wordpress-plugins/).
 2. Funny video after the posts
 
 == Changelog ==
+
+= 2.7 =
+* Tested upto WordPress 3.3.2
+* Updated code
 
 = 2.6 =
 

@@ -3,12 +3,12 @@
 Plugin Name: Funny video online
 Plugin URI: http://www.onlinerel.com/wordpress-plugins/
 Description: Plugin "Funny video online" displays Funny video on your blog. There are over 10,000 video clips.
-Version: 2.6
+Version: 2.7
 Author: A.Kilius
 Author URI: http://www.onlinerel.com/wordpress-plugins/
 */
 
-define(funny_video_online_URL_RSS_DEFAULT, 'http://www.weekendjoy.com/weekend/funny-video/feed/');
+define(funny_video_online_URL_RSS_DEFAULT, 'http://www.jokequiz.com/category/funny-video/feed/');
 define(funny_video_online_TITLE, 'Funny video online');
 define(funny_video_online_MAX_SHOWN_ITEMS, 3);
 
@@ -42,7 +42,8 @@ $rss = fetch_feed( $feed );
 	}
 	  		endforeach;		
 	}
-$output .= '</ul> ';	 			
+$output .= '</ul> ';	 	
+
 extract($args);	
  echo $before_widget;  
  echo $before_title . $title . $after_title;  
@@ -109,6 +110,7 @@ function funny_video_online_widget_Init()
 add_action("plugins_loaded", "funny_video_online_widget_Init");
 
 add_action('admin_menu', 'funny_video_online_menu');
+
 function funny_video_online_menu() {
 	 add_menu_page('Funny video online', 'Funny video online', 8, __FILE__, 'funny_video_online_options');
 }
