@@ -1,14 +1,14 @@
 <?php
 /*
 Plugin Name: Funny video online
-Plugin URI: http://www.onlinerel.com/wordpress-plugins/
+Plugin URI: http://www.premiumresponsive.com/wordpress-plugins/
 Description: Plugin "Funny video online" displays Funny video on your blog. There are over 10,000 video clips.
-Version: 2.7
+Version: 2.8
 Author: A.Kilius
-Author URI: http://www.onlinerel.com/wordpress-plugins/
+Author URI: http://www.premiumresponsive.com/wordpress-plugins/
 */
 
-define(funny_video_online_URL_RSS_DEFAULT, 'http://www.jokequiz.com/category/funny-video/feed/');
+define(funny_video_online_URL_RSS_DEFAULT, 'http://www.jokerhub.com/category/funny-video/feed/');
 define(funny_video_online_TITLE, 'Funny video online');
 define(funny_video_online_MAX_SHOWN_ITEMS, 3);
 
@@ -95,7 +95,9 @@ function funny_video_online_options() {
 <b>Plugin "Funny video online" displays Funny video on your blog. There are over 10,000 video clips.
 Add Funny YouTube videos to your sidebar on your blog using  a widget.</b> </p>
 <p> <h3>Add the widget "Funny video online"  to your sidebar from <a href="<? echo "./widgets.php";?>"> Appearance->Widgets</a> and configure the widget options.</h3>  
-<h3>More <a href="http://www.onlinerel.com/wordpress-plugins/" target="_blank"> WordPress Plugins</a></h3>
+</p>
+<p> 
+<h3>More <a href="http://www.premiumresponsive.com/wordpress-plugins/" target="_blank"> WordPress Plugins</a></h3>
 </p>
  	</div>     
 	
